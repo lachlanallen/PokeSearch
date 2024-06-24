@@ -1,0 +1,64 @@
+/* Root styles */
+:root {
+    --main-color: #2687D1;
+    --main-dark-color: #181C50;
+}
+
+.list-container:not(hr) {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin-left: 5vw;
+    position: relative;
+    z-index: 3;
+}
+
+.pokemonList-preview:not(hr){
+    background-color: var(--main-lighter-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding-left: 25px;
+    box-shadow: 0 2px 5px var(--main-color);
+    border-radius: 24px;
+    height: 90px;
+}
+
+.pokemonList-preview a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemonList-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pokemonList-image {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 125px;
+}
+
+.pokemonList-preview img {
+    width: 100px;
+    height: auto;
+
+}
+
+.letter {
+    color: var(--main-color);
+    margin: 25px 0px;
+}
+
+hr {
+    width: 325%;
+    margin-bottom: 20px;
+    border: 1px solid var(--main-color);
+}

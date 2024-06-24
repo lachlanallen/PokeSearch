@@ -1,0 +1,49 @@
+/* Pokemon Logo */
+.pokemon-logo {
+    max-width: 40%;
+    position: relative;
+    top: -50px;
+}
+
+/* Pokemon Title */
+.title-section {
+    background: url("../../public/homeBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    font-size: 55px;
+}
+
+/* Curve Divider */
+.custom-shape-divider-bottom-1707675389 {
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1707675389 svg {
+    position: relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 220px;
+}
+
+.custom-shape-divider-bottom-1707675389 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.hidden {
+    display: none;
+  }
+
+header {
+    margin-bottom: 30px;
+    position: relative;
+    top: -50px;
+}
+  

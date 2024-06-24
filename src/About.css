@@ -1,0 +1,35 @@
+/* Root styles */
+:root {
+    --main-color: #2687D1;
+    --main-dark-color: #181C50;
+}
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Electrolize', sans-serif;
+}
+
+/*Pokemon Name*/
+.pokemon-name {
+    color: var(--main-dark-color);
+    font-size: 60px;
+}
+
+/* Pokemon Stats */
+.stats {
+    color: #FFA800;
+    font-size: 28px;
+}
+
+/* Pokedex Entry */
+.pokedex-header {
+    color: #181C50;
+    font-size: 28px;
+}
+.pokedex-body {
+    color: rgba(38, 134, 207, 0.8);
+    font-size: 20px;
+}

@@ -1,0 +1,14 @@
+/* Root styles */
+:root {
+  --main-color: #2687D1;
+  --main-lighter-color: #B5DFFF;
+  --main-dark-color: #181C50;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
